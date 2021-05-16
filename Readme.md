@@ -23,6 +23,9 @@ Preprocessing
 ![Bubble Text](https://github.com/micsche/GANComic/blob/main/images/bubbletext.png)
   
   ii. Training the Mask-RCNN, most of the text was being detected, with very little False Positives. However, there were parts of text not being detected. To aim for better training, we reused the True Positives captured in the training. Suspect is that the handwriting font used is particular to that cartoon segment.
+  
+![Bubble Text](https://github.com/micsche/GANComic/blob/main/images/bubbletext2.png)
+  
 3. 
 
 
