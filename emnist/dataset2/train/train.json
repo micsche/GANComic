@@ -1,0 +1,59 @@
+{ 
+  "info": { 
+    "description": "Synthetic ComicBook text", 
+    "url": "http://github/mische", 
+    "version": "1.0", 
+    "year": 2021, 
+    "contributor": "MicSche", 
+    "date_created": "2021/03/21" 
+  }, 
+  "licenses": [ 
+    { 
+      "url": "http://ww.ahab/com/seamen", 
+      "id": 0, 
+      "name": "Non-Commercial Educational " 
+    } 
+  ], 
+  "images": [   { 
+      "license": 0, 
+      "file_name": "1.jpg", 
+      "width":  512, 
+      "height": 512, 
+      "id": 1 
+    }],  "annotations": [{ 
+      "segmentation": [ 
+        [ 98,86, 467,86, 467,165, 98,165, 98,86 ] 
+      ], 
+      "iscrowd": 0,
+      "image_id": 1,
+      "category_id": 1, 
+      "id": 1,
+      "bbox": [ 98,86, 369, 79 ],
+      "area": 29151
+    }  ],
+  "categories": [
+    {
+      "supercategory": "text",
+      "id": 1,
+      "name": "handwritten"
+    }
+  ]
+],  "annotations": [{ 
+      "segmentation": [ 
+        [ 98,86, 467,86, 467,165, 98,165, 98,86 ] 
+      ], 
+      "iscrowd": 0,
+      "image_id": 1,
+      "category_id": 1, 
+      "id": 1,
+      "bbox": [ 98,86, 369, 79 ],
+      "area": 29151
+    }  ],
+  "categories": [
+    {
+      "supercategory": "text",
+      "id": 1,
+      "name": "handwritten"
+    }
+  ]
+}
