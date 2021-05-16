@@ -20,6 +20,7 @@ Preprocessing
 2. Text Removal: Another Mask R-CNN detects handwritten text in a segment removal algorithm. This could be helpful and possibly not necessary.
   i. The Mask R-CNN has been programmed using synthetic data. Drawings have been internet-scraped from bing.com. Bubble-text has been generated using random snippets from "Dubliners" by James Joyce.
   ![Bubble Text](https://github.com/micsche/GANComic/blob/main/images/bubbletext.png)
+  ii. Training the Mask-RCNN, most of the text was being detected, with very little False Positives. However, there were parts of text not being detected. To aim for better training, we reused the True Positives captured in the training. Suspect is that the handwriting font used is particular to that cartoon segment.
 3. 
 
 
