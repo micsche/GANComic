@@ -19,6 +19,7 @@ Preprocessing
 1. Frame Finding: Mask R-CNN and OpenCV are used to detect the individual frames within the cartoon strip.
 2. Text Removal: Another Mask R-CNN detects handwritten text in a segment removal algorithm. This could be helpful and possibly not necessary.
   i. The Mask R-CNN has been programmed using synthetic data. Drawings have been internet-scraped from bing.com. Bubble-text has been generated using random snippets from "Dubliners" by James Joyce.
+  ![Bubble Text](https://github.com/micsche/GANComic/blob/main/images/bubbletext.png)
 3. 
 
 
